@@ -298,9 +298,9 @@
             let {title: t, pathname: a} = e
               , n = "Wisdom U. Aturuobi"
               , i = "Wisdom U. Aturuobi an AWS solution architect who creates innovative, secure, and scalable cloud architectures for various domains and applications."
-              , o = "https://brittanychiang.com"
+              , o = "https://wisdomaturuobi.vercel.app/"
               , c = "".concat(o, "/og.png")
-              , d = "@bchiang7"
+              , d = "@uzowis"
               , m = n;
             return t !== n && (m = "".concat(t, " | ").concat(n)),
             (0,

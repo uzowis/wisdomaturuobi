@@ -892,20 +892,20 @@
                 s.jsx)("ul", {
                     className: "group/list",
                     children: [{
-                        title: "Integrating Algolia Search with WordPress Multisite",
-                        date: "2020",
-                        url: "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
+                        title: "CI/CD - Using AWS Codepipeline and Elastic Beanstalk to deploy web App",
+                        date: "2024",
+                        url: "/",
                         image: {
-                            src: "/images/writing/algolia-search.jpeg",
-                            alt: "Telescope"
+                            src: "/",
+                            alt: "Beanstalk"
                         }
                     }, {
-                        title: "Building a Headless Mobile App CMS From Scratch",
-                        date: "2019",
-                        url: "https://upstatement.com/blog/building-a-headless-mobile-app-cms-from-scratch/",
+                        title: "Implementing a serverless architecture - Serverless Web App ",
+                        date: "2024",
+                        url: "/",
                         image: {
-                            src: "/images/writing/headless.jpeg",
-                            alt: "Headless horseamn"
+                            src: "/",
+                            alt: "Serverless"
                         }
                     }].map((e,t)=>(0,
                     s.jsx)("li", {

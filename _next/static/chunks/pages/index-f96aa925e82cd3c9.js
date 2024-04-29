@@ -481,21 +481,21 @@
                     }, {
                         date: "Feb 2018 — Nov 2022",
                         company: {
-                            name: "Madutech - Lagos, NG",
-                            link: "#"
-                        },
-                        positions: ["Full-Stack Developer"],
-                        desc: "Designed and implemented a responsive front-end using React and Redux. Developed RESTful APIs with Express.js and Node.js, ensuring seamless communication between front-end and back-end.",
-                        tech: [ "HTML", "CSS", "JavaScript", "TypeScript", "Reactjs", "Redux", "Tailwind CSS",  "Nodejs", "Git", "AWS", "Expressjs", "MongoDB", "Python"]
-                    }, {
-                        date: "Jun 2015 — Jan 2018",
-                        company: {
                             name: "EbookingNG - PH, NG",
                             link: "https://ebooking.com.ng/"
                         },
                         positions: ["Full-Stack Developer"],
                         desc: "Collaborated with UI/UX designers to create an intuitive front-end using HTML, CSS, and JavaScript. Designed the back-end using PHP and MySQL, ensuring data integrity and security.",
                         tech: ["HTML", "CSS", "JavaScript", "JQuery", "PHP", "MySQL", "Git", "REST API"],
+                    }, {
+                        date: "Jun 2015 — Jan 2018",
+                        company: {
+                            name: "Madutech - Lagos, NG",
+                            link: "#"
+                        },
+                        positions: ["Full-Stack Developer"],
+                        desc: "Designed and implemented a responsive front-end using React and Redux. Developed RESTful APIs with Express.js and Node.js, ensuring seamless communication between front-end and back-end.",
+                        tech: [ "HTML", "CSS", "JavaScript", "TypeScript", "Reactjs", "Redux", "Tailwind CSS",  "Nodejs", "Git", "AWS", "Expressjs", "MongoDB", "Python"]
                     
                     }].map((e,t)=>(0,
                     s.jsx)("li", {
@@ -896,7 +896,7 @@
                         date: "2024",
                         url: "/",
                         image: {
-                            src: "/",
+                            src: "/_next/images/projects/cicd.png",
                             alt: "Beanstalk"
                         }
                     }, {
@@ -904,7 +904,7 @@
                         date: "2024",
                         url: "/",
                         image: {
-                            src: "/",
+                            src: "/_next/images/projects/serverless.png",
                             alt: "Serverless"
                         }
                     }].map((e,t)=>(0,

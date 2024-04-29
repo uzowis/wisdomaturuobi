@@ -867,15 +867,7 @@
                         })
                     }, a))
                 }), (0,
-                s.jsx)("div", {
-                    className: "mt-12",
-                    children: (0,
-                    s.jsx)(f, {
-                        title: "View Full Project Archive",
-                        url: "/",
-                        className: "font-semibold text-slate-200"
-                    })
-                })]
+                s.jsx)]
             })
         }
         var v = a(8425)

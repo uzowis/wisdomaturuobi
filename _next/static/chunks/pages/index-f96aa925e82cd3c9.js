@@ -432,7 +432,7 @@
                 (0, s.jsxs)("p", {
                   className: "mb-4",
                   children: [
-                    "On the backend, I excel with technologies like JavaScript, React, Next.js, Node.js, Express.js, MongoDB, and Python, developing efficient microservices architectures that support reliable and high-performing systems ",
+                    "On the backend, I excel with technologies like JavaScript, React, Next.js, Node.js, Express.js, MongoDB, and Python, developing efficient microservices architectures that support reliable and high-performing systems",
                     ".",
                   ],
                 }),

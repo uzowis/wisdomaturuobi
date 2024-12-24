@@ -297,7 +297,7 @@
         function i(e) {
             let {title: t, pathname: a} = e
               , n = "Wisdom U. Aturuobi"
-              , i = "Wisdom U. Aturuobi an AWS solution architect who creates innovative, secure, and scalable cloud architectures for various domains and applications."
+              , i = "Wisdom U. Aturuobi an AWS solution architect / Backend Engineer who creates innovative, secure, and scalable cloud architectures for various domains and applications."
               , o = "https://wisdomaturuobi.vercel.app/"
               , c = "".concat(o, "/og.png")
               , d = "@uzowis"
@@ -420,21 +420,30 @@
           , r = a(7294);
         function n() {
             let e = "font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300";
-            return (0,
-            s.jsxs)("div", {
-                children: [(0,
-                s.jsxs)("p", {
-                    className: "mb-4",
-                    children: ["Hello there! Picture a Solutions Architect and DevOps Engineer who thrives on AWS, creating cloud solutions that are not just efficient but also make the world a better place. That’s me! With a keen interest in cybersecurity, system administration, and networking, I can weave magic with JavaScript, React, Next.js, Express.js, Node.js, MongoDB, Python, and WordPress", "."]
-                }), (0,
-                s.jsxs)("p", {
-                    className: "mb-4",
-                    children: ["As an AWS Solutions Architect, my canvas has been various AWS services like EC2, S3, Lambda, API Gateway, CloudFormation, CloudFront, DynamoDB, RDS, SNS, SQS, and more. These tools have been instrumental in designing and delivering solutions that are scalable, secure, and efficient. My AWS Certified Solutions Architect - Associate certification is a testament to my expertise", "."]
-                }), (0,
-                s.jsxs)("p", {
-                    children: ["I’m always on the lookout for learning new skills and technologies, and I love a good challenge. I value feedback and suggestions, and I enjoy collaborating with other professionals in the field. If you’re seeking a professional yet fun-loving AWS Solutions Architect and DevOps Engineer, your search ends here!", "."]
-                })]
-            })
+            return (0, s.jsxs)("div", {
+              children: [
+                (0, s.jsxs)("p", {
+                  className: "mb-4",
+                  children: [
+                    "I am a Cloud Architect and Backend Engineer dedicated to building impactful and secure cloud solutions. With a strong background in AWS services such as EC2, VPC, S3, Lambda, API Gateway, CICD Pipeline, SNS, SQS, DynamoDB etc, I focus on designing secure and scalable architectures that meet contemporary demands. My AWS Certified Solutions Architect - Associate certification reflects my my expertise in this area.",
+                    ".",
+                  ],
+                }),
+                (0, s.jsxs)("p", {
+                  className: "mb-4",
+                  children: [
+                    "On the backend, I excel with technologies like JavaScript, React, Next.js, Node.js, Express.js, MongoDB, and Python, developing efficient microservices architectures that support reliable and high-performing systems. ",
+                    ".",
+                  ],
+                }),
+                (0, s.jsxs)("p", {
+                  children: [
+                    "I am always on the lookout for new technologies, ready to tackle challenges, and eager to collaborate. If you need a skilled and friendly problem-solver who enjoys crafting innovative solutions, let’s connect!",
+                    ".",
+                  ],
+                }),
+              ],
+            });
         }
         var l = a(7604);
         function i() {
@@ -641,93 +650,125 @@
           , h = a.n(p);
         function u(e) {
             let {sections: t} = e;
-            return (0,
-            s.jsxs)("header", {
-                className: "lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24",
-                children: [(0,
-                s.jsxs)("div", {
-                    children: [(0,
-                    s.jsx)("h1", {
-                        className: "text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl",
-                        children: (0,
-                        s.jsx)(h(), {
-                            href: "/",
-                            children: "Wisdom U. Aturuobi"
-                        })
-                    }), (0,
-                    s.jsx)("h2", {
-                        className: "mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl",
-                        children: "AWS Solutions Architect / Backend Engineer  "
-                    }), (0,
-                    s.jsx)("p", {
-                        className: "mt-4 max-w-xs leading-normal",
-                        children: "I use AWS and devops skills to design, build, and manage cloud infrastructures and solutions that are scalable, secure, and cost-effective."
-                    }), (0,
-                    s.jsx)("nav", {
-                        className: "nav hidden lg:block",
-                        "aria-label": "In-page jump links",
-                        children: (0,
-                        s.jsx)("ul", {
-                            className: "mt-16 w-max",
-                            children: t.map((e,t)=>e.hideFromNav ? null : (0,
-                            s.jsx)("li", {
-                                children: (0,
-                                s.jsxs)("a", {
-                                    className: "group flex items-center py-3 ".concat(0 === t ? "active" : ""),
-                                    href: "#".concat(e.heading.toLowerCase()),
-                                    children: [(0,
-                                    s.jsx)("span", {
-                                        className: "nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
-                                    }), (0,
-                                    s.jsx)("span", {
-                                        className: "nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200",
-                                        children: e.heading
-                                    })]
-                                })
-                            }, t))
-                        })
-                    })]
-                }), (0,
-                s.jsx)("ul", {
-                    className: "ml-1 mt-8 flex items-center",
-                    "aria-label": "Social media",
-                    children: [{
-                        title: "GitHub",
-                        url: "https://github.com/uzowis",
-                        icon: "github"
-                    }, {
-                        title: "LinkedIn",
-                        url: "https://www.linkedin.com/in/wisdom-aturuobi/",
-                        icon: "linkedin"
-                    }, {
-                        title: "Twitter",
-                        url: "https://twitter.com/_uzowis",
-                        icon: "twitter-x"
-                   
-                    }].map((e,t)=>(0,
-                    s.jsx)("li", {
+            return (0, s.jsxs)("header", {
+              className:
+                "lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24",
+              children: [
+                (0, s.jsxs)("div", {
+                  children: [
+                    (0, s.jsx)("h1", {
+                      className:
+                        "text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl",
+                      children: (0, s.jsx)(h(), {
+                        href: "/",
+                        children: "Wisdom U. Aturuobi",
+                      }),
+                    }),
+                    (0, s.jsx)("h2", {
+                      className:
+                        "mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl",
+                      children:
+                        "AWS Solutions Architect / Backend Engineer  ",
+                    }),
+                    (0, s.jsx)("p", {
+                      className: "mt-4 max-w-xs leading-normal",
+                      children:
+                        "I use AWS and backend engineering skills to design, build, and manage cloud infrastructures and solutions that are scalable, secure, and cost-effective.",
+                    }),
+                    (0, s.jsx)("nav", {
+                      className: "nav hidden lg:block",
+                      "aria-label": "In-page jump links",
+                      children: (0, s.jsx)("ul", {
+                        className: "mt-16 w-max",
+                        children: t.map((e, t) =>
+                          e.hideFromNav
+                            ? null
+                            : (0, s.jsx)(
+                                "li",
+                                {
+                                  children: (0, s.jsxs)("a", {
+                                    className:
+                                      "group flex items-center py-3 ".concat(
+                                        0 === t ? "active" : ""
+                                      ),
+                                    href: "#".concat(
+                                      e.heading.toLowerCase()
+                                    ),
+                                    children: [
+                                      (0, s.jsx)("span", {
+                                        className:
+                                          "nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none",
+                                      }),
+                                      (0, s.jsx)("span", {
+                                        className:
+                                          "nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200",
+                                        children: e.heading,
+                                      }),
+                                    ],
+                                  }),
+                                },
+                                t
+                              )
+                        ),
+                      }),
+                    }),
+                  ],
+                }),
+                (0, s.jsx)("ul", {
+                  className: "ml-1 mt-8 flex items-center",
+                  "aria-label": "Social media",
+                  children: [
+                    {
+                      title: "GitHub",
+                      url: "https://github.com/uzowis",
+                      icon: "github",
+                    },
+                    {
+                      title: "LinkedIn",
+                      url: "https://www.linkedin.com/in/wisdom-aturuobi/",
+                      icon: "linkedin",
+                    },
+                    {
+                      title: "Twitter",
+                      url: "https://twitter.com/_uzowis",
+                      icon: "twitter-x",
+                    },
+                  ].map((e, t) =>
+                    (0, s.jsx)(
+                      "li",
+                      {
                         className: "mr-5 text-xs shrink-0",
-                        children: (0,
-                        s.jsxs)("a", {
-                            className: "block hover:text-slate-200",
-                            href: e.url,
-                            target: "_blank",
-                            rel: "noreferrer noopener",
-                            "aria-label": "".concat(e.title, " (opens in a new tab)"),
-                            title: e.title,
-                            children: [(0,
-                            s.jsx)("span", {
-                                className: "sr-only",
-                                children: e.title
-                            }), (0,
-                            s.jsx)(o.Z, {
-                                use: e.icon,
-                                className: "twitter-x" === e.icon ? "h-5 w-5" : "h-6 w-6"
-                            })]
-                        })
-                    }, t))
-                })]
-            })
+                        children: (0, s.jsxs)("a", {
+                          className: "block hover:text-slate-200",
+                          href: e.url,
+                          target: "_blank",
+                          rel: "noreferrer noopener",
+                          "aria-label": "".concat(
+                            e.title,
+                            " (opens in a new tab)"
+                          ),
+                          title: e.title,
+                          children: [
+                            (0, s.jsx)("span", {
+                              className: "sr-only",
+                              children: e.title,
+                            }),
+                            (0, s.jsx)(o.Z, {
+                              use: e.icon,
+                              className:
+                                "twitter-x" === e.icon
+                                  ? "h-5 w-5"
+                                  : "h-6 w-6",
+                            }),
+                          ],
+                        }),
+                      },
+                      t
+                    )
+                  ),
+                }),
+              ],
+            });
         }
         var g = a(5675)
           , x = a.n(g);

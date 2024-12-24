@@ -425,7 +425,7 @@
                 (0, s.jsxs)("p", {
                   className: "mb-4",
                   children: [
-                    "I am a Cloud Architect and Backend Engineer dedicated to building impactful and secure cloud solutions. With a strong background in AWS services such as EC2, VPC, S3, Lambda, API Gateway, CICD Pipeline, SNS, SQS, DynamoDB etc, I focus on designing secure and scalable architectures that meet contemporary demands. My AWS Certified Solutions Architect - Associate certification reflects my my expertise in this area.",
+                    "I am a Cloud Architect and Backend Engineer dedicated to building impactful and secure cloud solutions. With a strong background in AWS services such as EC2, VPC, S3, Lambda, API Gateway, CICD Pipeline, SNS, SQS, DynamoDB etc, I focus on designing secure and scalable architectures that meet contemporary demands. My AWS Certified Solutions Architect - Associate certification reflects my expertise in this area",
                     ".",
                   ],
                 }),

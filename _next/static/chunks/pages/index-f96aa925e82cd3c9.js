@@ -295,13 +295,14 @@
           , n = a(9008)
           , l = a.n(n);
         function i(e) {
-            let {title: t, pathname: a} = e
-              , n = "Wisdom U. Aturuobi"
-              , i = "Wisdom U. Aturuobi an AWS solution architect / Backend Engineer who creates innovative, secure, and scalable cloud architectures for various domains and applications."
-              , o = "https://wisdomaturuobi.vercel.app/"
-              , c = "".concat(o, "/og.png")
-              , d = "@uzowis"
-              , m = n;
+            let { title: t, pathname: a } = e,
+              n = "Wisdom U. Aturuobi",
+              i =
+                "Wisdom U. Aturuobi a Backend Engineer / AWS solution architect who creates innovative, secure, and scalable cloud architectures for various domains and applications.",
+              o = "https://wisdomaturuobi.vercel.app/",
+              c = "".concat(o, "/og.png"),
+              d = "@uzowis",
+              m = n;
             return t !== n && (m = "".concat(t, " | ").concat(n)),
             (0,
             s.jsxs)(l(), {

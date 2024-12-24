@@ -807,109 +807,207 @@
         }
         function b() {
         
-            return (0,
-            s.jsxs)("div", {
-                children: [(0,
-                s.jsx)("ul", {
-                    className: "group/list",
-                    children: [{
-                        title: "Spotify Web Music Player",
-                        link: "https://www.linkedin.com/posts/wisdom-aturuobi_github-frontend-react-activity-6975448193304006656-vEzm?utm_source=share&utm_medium=member_desktop",
-                        image: "/_next/images/projects/spotify-p1.png",
-                        alt: "Spotify web player App",
-                        desc: "This is a Spotify web player App built with Reactjs, React Context API for state management, Spotify API and Pure CSS. Here users can login to their spotify account through spotify Web API and enjoy all songs from their spotify playlist.",
-                        tech: ["React", "Firebase", "Spotify API", "React Context API"],
-                        download: "https://github.com/uzowis/spotify-clone-uzowis"
-                    }, {
-                        title: "Movie Trend Finder",
-                        link: "https://netflix-clone-f62f8.web.app/",
-                        image: "/_next/images/projects/netflix-p1.png",
-                        alt: "Movie Trend Finder",
-                        desc: "This web app offers a user-friendly platform to explore a wide range of  trending movies and TV shows, utilizing IMDP API. The site includes functionalities such as a dynamic home page with trending titles, personalized watchlists, and various genre categories like action, comedy, horror, and romance.",
-                        tech: ["React", "Firebase", "IMDB API"],
-                        download: "https://github.com/uzowis/netflix-clone"
-                    }, {
-                        title: "Amazon E-commerce Replica",
-                        link: "https://clone-uz-9fd7d.web.app/",
-                        image: "/_next/images/projects/amazon-p1.png",
-                        alt: "Amazon E-commerce Replica",
-                        desc: "Built a replica of Amazon e-commerce which has add to cart, user auth, checkout and payment integration functionality",
-                        tech: ["React", "React Redux", "Firebase Auth", "Paystack"],
-                        download: "https://github.com/uzowis/amazon-clone"
-                    }, {
-                        title: "Crypto Trading Platform",
-                        link: "https://mycapitalbase.com/",
-                        image: "/_next/images/projects/invest-p2.png",
-                        alt: "Cryptocurrency trading platform",
-                        desc: "A cryptocurrency trading platform allowing users invest using various cryto assets. User and admin dashboard functionality",
-                        tech: ["HTML", "CSS", "JavaScript", "JQuery", "PHP", "MySQL", "Git"],
-                        download: "https://github.com/uzowis/crytpo-investment-webApp"
-                    }].map((t,a)=>(0,
-                    s.jsx)("li", {
+            return (0, s.jsxs)("div", {
+              children: [
+                (0, s.jsx)("ul", {
+                  className: "group/list",
+                  children: [
+                    {
+                      title: "E-commerce Application (Backend)",
+                      link: "https://github.com/uzowis/ecommerce-microservices",
+                      image: "/_next/images/projects/spotify-p1.png",
+                      alt: "E-commerce Application (Backend):",
+                      desc: "This E-commerce Application backend leverages microservices architecture, RPC queues, and message queues to ensure reliability and fault tolerance. Docker is used for containerization, with AWS EKS managing the containers. The application is deployed to AWS through CI/CD pipelines using GitHub Actions. This project explores various technologies to build a high-performance, scalable, and robust application.",
+                      tech: [
+                        "Nodejs",
+                        "Expressjs",
+                        "RabbitMQ",
+                        "RPC Queue",
+                        "AWS CICD Pipeline",
+                        "AWS EKS",
+                        "Docker",
+                        "AWS SNS",
+                        "AWS SQS",
+                      ],
+                      download:
+                        "https://github.com/uzowis/ecommerce-microservices",
+                    },
+                    {
+                      title: "The NASA Mission Control App",
+                      link: "https://github.com/uzowis/NASA-Mission-Lunch",
+                      image: "/_next/images/projects/spotify-p1.png",
+                      alt: "The NASA Mission Control App",
+                      desc: "This is a web application for monitoring NASA's space launches. It features a mission control dashboard for scheduling missions, exploring historical data via the SpaceX API, and finding information on upcoming launches. The backend uses Node.js, Express.js, TypeScript, MongoDB, and Jest for API testing. Docker, AWS CI/CD pipeline, and AWS Elastic Beanstalk are utilized for deployment, ensuring a strong and scalable solution. For educational purposes only.",
+                      tech: [
+                        "Nodejs",
+                        "Expressjs",
+                        "SPACEX API",
+                        "Jest",
+                        "Docker",
+                        "AWS Elastic Beanstack",
+                        "AWS DynamoDB",
+                        "AWS CICD CodePipeline",
+                      ],
+                      download:
+                        "https://github.com/uzowis/NASA-Mission-Lunch",
+                    },
+                    {
+                      title: "Hotel Booking App",
+                      link: "https://github.com/uzowis/hotel-booking-app",
+                      image: "/_next/images/projects/spotify-p1.png",
+                      alt: "Hotel Booking App",
+                      desc: "This a hotel listing and booking application built with the MERN stack, offers secure user authentication, efficient hotel management, image uploads, search, sort, and filter functionalities, Stripe integration for payments, booking management, and a dynamic home page displaying recent hotels.",
+                      tech: [
+                        "Nodejs",
+                        "Expressjs",
+                        "Jest",
+                        "AWS EC2",
+                        "AWS DynamoDB",
+                        "AWS CICD CodePipeline",
+                      ],
+                      download:
+                        "https://github.com/uzowis/hotel-booking-app",
+                    },
+                    {
+                      title: "Spotify Web Music Player",
+                      link: "https://www.linkedin.com/posts/wisdom-aturuobi_github-frontend-react-activity-6975448193304006656-vEzm?utm_source=share&utm_medium=member_desktop",
+                      image: "/_next/images/projects/spotify-p1.png",
+                      alt: "Spotify web player App",
+                      desc: "This is a Spotify web player App built with Reactjs, React Context API for state management, Spotify API and Pure CSS. Here users can login to their spotify account through spotify Web API and enjoy all songs from their spotify playlist.",
+                      tech: [
+                        "React",
+                        "Firebase",
+                        "Spotify API",
+                        "React Context API",
+                      ],
+                      download:
+                        "https://github.com/uzowis/spotify-clone-uzowis",
+                    },
+                    {
+                      title: "Movie Trend Finder",
+                      link: "https://netflix-clone-f62f8.web.app/",
+                      image: "/_next/images/projects/netflix-p1.png",
+                      alt: "Movie Trend Finder",
+                      desc: "This web app offers a user-friendly platform to explore a wide range of  trending movies and TV shows, utilizing IMDP API. The site includes functionalities such as a dynamic home page with trending titles, personalized watchlists, and various genre categories like action, comedy, horror, and romance.",
+                      tech: ["React", "Firebase", "IMDB API"],
+                      download: "https://github.com/uzowis/netflix-clone",
+                    },
+                    {
+                      title: "Amazon E-commerce Replica",
+                      link: "https://clone-uz-9fd7d.web.app/",
+                      image: "/_next/images/projects/amazon-p1.png",
+                      alt: "Amazon E-commerce Replica",
+                      desc: "Built a replica of Amazon e-commerce which has add to cart, user auth, checkout and payment integration functionality",
+                      tech: [
+                        "React",
+                        "React Redux",
+                        "Firebase Auth",
+                        "Paystack",
+                      ],
+                      download: "https://github.com/uzowis/amazon-clone",
+                    },
+                    {
+                      title: "Crypto Trading Platform",
+                      link: "https://mycapitalbase.com/",
+                      image: "/_next/images/projects/invest-p2.png",
+                      alt: "Cryptocurrency trading platform",
+                      desc: "A cryptocurrency trading platform allowing users invest using various cryto assets. User and admin dashboard functionality",
+                      tech: [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "JQuery",
+                        "PHP",
+                        "MySQL",
+                        "Git",
+                      ],
+                      download:
+                        "https://github.com/uzowis/crytpo-investment-webApp",
+                    },
+                  ].map((t, a) =>
+                    (0, s.jsx)(
+                      "li",
+                      {
                         className: "mb-12",
-                        children: (0,
-                        s.jsxs)("div", {
-                            className: "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
-                            children: [(0,
-                            s.jsx)(i, {}), (0,
-                            s.jsxs)("div", {
-                                className: "z-10 sm:order-2 sm:col-span-6",
-                                children: [(0,
-                                s.jsx)("h3", {
-                                    children: (0,
-                                    s.jsx)(l.Z, {
-                                        title: t.title,
-                                        url: t.link,
-                                        fill: !0
-                                    })
-                                }), (0,
-                                s.jsx)("p", {
-                                    className: "mt-2 text-sm leading-normal",
-                                    children: t.desc
-                                }), t.github && (0,
-                                s.jsx)(e, {
-                                    repoUrl: t.github
-                                }), t.download && (0,
-                                s.jsxs)("a", {
-                                    className: "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
+                        children: (0, s.jsxs)("div", {
+                          className:
+                            "group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50",
+                          children: [
+                            (0, s.jsx)(i, {}),
+                            (0, s.jsxs)("div", {
+                              className: "z-10 sm:order-2 sm:col-span-6",
+                              children: [
+                                (0, s.jsx)("h3", {
+                                  children: (0, s.jsx)(l.Z, {
+                                    title: t.title,
+                                    url: t.link,
+                                    fill: !0,
+                                  }),
+                                }),
+                                (0, s.jsx)("p", {
+                                  className: "mt-2 text-sm leading-normal",
+                                  children: t.desc,
+                                }),
+                                t.github &&
+                                  (0, s.jsx)(e, {
+                                    repoUrl: t.github,
+                                  }),
+                                t.download &&
+                                  (0, s.jsxs)("a", {
+                                    className:
+                                      "relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300",
                                     href: t.download,
                                     target: "_blank",
                                     rel: "noreferrer noopener",
-                                    "aria-label": "Over 100,000 installs on Visual Studio Code Marketplace (opens in a new tab)",
-                                    children: [(0,
-                                    s.jsx)(o.Z, {
+                                    "aria-label":
+                                      "Over 100,000 installs on Visual Studio Code Marketplace (opens in a new tab)",
+                                    children: [
+                                      (0, s.jsx)(o.Z, {
                                         use: "github",
-                                        className: "mr-1 h-4 w-4"
-                                    }), (0,
-                                    s.jsx)("span", {
-                                        children: "Github "
-                                    })]
-                                }), t.tech && (0,
-                                s.jsx)("ul", {
+                                        className: "mr-1 h-4 w-4",
+                                      }),
+                                      (0, s.jsx)("span", {
+                                        children: "Github ",
+                                      }),
+                                    ],
+                                  }),
+                                t.tech &&
+                                  (0, s.jsx)("ul", {
                                     className: "mt-2 flex flex-wrap",
                                     "aria-label": "Technologies used:",
-                                    children: t.tech.map((e,t)=>(0,
-                                    s.jsx)("li", {
-                                        className: "mr-1.5 mt-2",
-                                        children: (0,
-                                        s.jsx)(c.Z, {
-                                            text: e
-                                        })
-                                    }, t))
-                                })]
-                            }), (0,
-                            s.jsx)(x(), {
-                                className: "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
-                                src: t.image,
-                                alt: t.alt,
-                                width: 200,
-                                height: 48
-                            })]
-                        })
-                    }, a))
-                }), (0,
-                s.jsx)]
-            })
+                                    children: t.tech.map((e, t) =>
+                                      (0, s.jsx)(
+                                        "li",
+                                        {
+                                          className: "mr-1.5 mt-2",
+                                          children: (0, s.jsx)(c.Z, {
+                                            text: e,
+                                          }),
+                                        },
+                                        t
+                                      )
+                                    ),
+                                  }),
+                              ],
+                            }),
+                            (0, s.jsx)(x(), {
+                              className:
+                                "rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1",
+                              src: t.image,
+                              alt: t.alt,
+                              width: 200,
+                              height: 48,
+                            }),
+                          ],
+                        }),
+                      },
+                      a
+                    )
+                  ),
+                }),
+                (0, s.jsx),
+              ],
+            });
         }
         var v = a(8425)
           , w = a(4910);

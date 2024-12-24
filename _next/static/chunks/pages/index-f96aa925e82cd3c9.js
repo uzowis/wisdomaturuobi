@@ -816,7 +816,7 @@
                     {
                       title: "E-commerce Application (Backend)",
                       link: "https://github.com/uzowis/ecommerce-microservices",
-                      image: "/_next/images/projects/spotify-p1.png",
+                      image: "/_next/images/projects/ecom-1.png",
                       alt: "E-commerce Application (Backend):",
                       desc: "This E-commerce Application backend leverages microservices architecture, RPC queues, and message queues to ensure reliability and fault tolerance. Docker is used for containerization, with AWS EKS managing the containers. The application is deployed to AWS through CI/CD pipelines using GitHub Actions. This project explores various technologies to build a high-performance, scalable, and robust application.",
                       tech: [
@@ -836,7 +836,7 @@
                     {
                       title: "The NASA Mission Control App",
                       link: "https://github.com/uzowis/NASA-Mission-Lunch",
-                      image: "/_next/images/projects/spotify-p1.png",
+                      image: "/_next/images/projects/nasa-1.png",
                       alt: "The NASA Mission Control App",
                       desc: "This is a web application for monitoring NASA's space launches. It features a mission control dashboard for scheduling missions, exploring historical data via the SpaceX API, and finding information on upcoming launches. The backend uses Node.js, Express.js, TypeScript, MongoDB, and Jest for API testing. Docker, AWS CI/CD pipeline, and AWS Elastic Beanstalk are utilized for deployment, ensuring a strong and scalable solution. For educational purposes only.",
                       tech: [
@@ -855,7 +855,7 @@
                     {
                       title: "Hotel Booking App",
                       link: "https://github.com/uzowis/hotel-booking-app",
-                      image: "/_next/images/projects/spotify-p1.png",
+                      image: "/_next/images/projects/hotel-1.png",
                       alt: "Hotel Booking App",
                       desc: "This a hotel listing and booking application built with the MERN stack, offers secure user authentication, efficient hotel management, image uploads, search, sort, and filter functionalities, Stripe integration for payments, booking management, and a dynamic home page displaying recent hotels.",
                       tech: [

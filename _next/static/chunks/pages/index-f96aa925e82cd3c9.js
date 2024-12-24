@@ -669,7 +669,7 @@
                       className:
                         "mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl",
                       children:
-                        "AWS Solutions Architect / Backend Engineer  ",
+                        "Backend Engineer / AWS Cloud Solutions Architect",
                     }),
                     (0, s.jsx)("p", {
                       className: "mt-4 max-w-xs leading-normal",

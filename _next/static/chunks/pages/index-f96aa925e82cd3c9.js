@@ -845,6 +845,7 @@
                         "SPACEX API",
                         "Jest",
                         "Docker",
+                        "Typescript",
                         "AWS Elastic Beanstack",
                         "AWS DynamoDB",
                         "AWS CICD CodePipeline",
